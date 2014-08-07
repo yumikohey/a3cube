@@ -910,12 +910,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  font-size: 1.2em;
+  color: white;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: white;
   text-decoration: underline;
 }
 a:focus {
@@ -3591,7 +3592,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #009599;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3790,6 +3791,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  background-color: rgba(69,194,179,0.6);
 }
 .navbar-collapse.in {
   overflow-y: auto;
@@ -3881,8 +3883,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 3em;
   line-height: 20px;
+  margin-left: 30px;
+  color: white;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4092,11 +4096,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: transparent;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #24C5BA;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4104,14 +4108,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777;
+  color: #24C5BA;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #24C5BA;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: white;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4194,6 +4198,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-brand {
   color: #777;
 }
+
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #fff;

@@ -1,6 +1,6 @@
 .bannerContainer {
     position:relative; 
-    height:600px;
+    height: 450px;
     
 }
 .carousel {
@@ -12,13 +12,11 @@
     position:absolute;
     top:30px;
     z-index:10;
-    background:#fff;
     width:100%;
 }
-
 
 .carousel-inner .item img {
 	height: 450px;
 	width: 100%;
-	
 }
+
