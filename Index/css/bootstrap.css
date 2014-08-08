@@ -2770,18 +2770,18 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: rgba(69,194,179,0.1);
+  border-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #009599;
+  border-color: transparent;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3593,6 +3593,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #009599;
+  border-radius: 5px;
 }
 .nav > li.disabled > a {
   color: #777;
