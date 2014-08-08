@@ -30,7 +30,7 @@ body{
     z-index: 15;
 }
 
-input {
+input[type=search] {
     border:0; 
     padding:10px; 
     font-size:1em; 
