@@ -1,5 +1,6 @@
 body{
     background-color: #292929;
+    color:rgba(69,194,179,1);
 }
 
 .bannerContainer {
@@ -97,4 +98,32 @@ input[type=search] {
 
 .youtube-height{
     height:220px;
+}
+
+.partner-box {
+    margin: 15px auto;
+}
+
+h2 > .upcoming_event{
+    color: #fff;
+}
+
+.events-box-1{
+    height: 250px;
+    margin-left: 20px;
+    color:orange;
+}
+
+.events-box-2{
+    height: 250px;
+    margin-left: 15px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+}
+
+.events-box-3{
+    height: 250px;
+    margin-right: 50px;
+    background-color: #fff;
+    border: 1px #ccc solid;
 }
