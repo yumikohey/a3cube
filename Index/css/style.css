@@ -165,3 +165,11 @@ hr.horizontal_line_blog:after {
 .block{
     height: 30px;
 }
+
+.blog-thumbnails{
+    padding: 30px;
+}
+
+.blog-text{
+    text-align: justify;
+}
