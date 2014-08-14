@@ -131,7 +131,7 @@ h2 > .upcoming_event{
     border: 1px #ccc solid;
 }
 
-hr.horizontal_line_event, hr.horizontal_line_blog {
+hr.horizontal_line_event, hr.horizontal_line_blog, hr.footer_widget {
     padding: 0;
     border: none;
     border-top: medium double #fff;
@@ -162,6 +162,7 @@ hr.horizontal_line_blog:after {
     left: 50px;
 }
 
+
 .block{
     height: 30px;
 }
@@ -172,4 +173,24 @@ hr.horizontal_line_blog:after {
 
 .blog-text{
     text-align: justify;
+}
+
+
+.footer_title{
+    color: #fff;
+    background: rgba(69,194,179,1);
+    padding: 5px;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.footer-text {
+    text-align: justify;
+    margin-top: 15px;
+    color: #ccc;
+    margin-left: 30px;
+}
+
+#copyright {
+    text-align: center;
 }
