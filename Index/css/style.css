@@ -117,8 +117,11 @@ h2 > .upcoming_event{
 .events-box-2{
     height: 250px;
     margin-left: 15px;
-    background-color: #fff;
-    border: 1px #ccc solid;
+    padding: 0 5px 5px;
+}
+
+.events-box-2, .img-rounded{
+    margin: 10px;
 }
 
 .events-box-3{
@@ -126,4 +129,39 @@ h2 > .upcoming_event{
     margin-right: 50px;
     background-color: #fff;
     border: 1px #ccc solid;
+}
+
+hr.horizontal_line_event, hr.horizontal_line_blog {
+    padding: 0;
+    border: none;
+    border-top: medium double #fff;
+    color: #fff;
+}
+
+hr.horizontal_line_event:after {
+    content: "Upcoming Event";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 2em;
+    color: rgba(69,194,179,1);
+    padding: 0 0.25em;
+    background-color: #292929;
+    left: 50px;
+}
+
+hr.horizontal_line_blog:after {
+    content: "Blog";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 2em;
+    color: rgba(69,194,179,1);
+    padding: 0 0.25em;
+    background-color: #292929;
+    left: 50px;
+}
+
+.block{
+    height: 30px;
 }
