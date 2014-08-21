@@ -7,7 +7,7 @@ $(document).ready(function() {
   $("#owl-demo").owlCarousel({
  
       autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
+      pagination:false,
       items : 4,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3]
@@ -17,6 +17,7 @@ $(document).ready(function() {
     $("#soft-products").owlCarousel({
  
       items : 3,
+      pagination:false,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3]
  
@@ -25,6 +26,7 @@ $(document).ready(function() {
      $("#hard-products").owlCarousel({
  
       items : 3,
+      pagination:false,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3]
  
