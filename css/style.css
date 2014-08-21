@@ -7,6 +7,18 @@
   height: 100px;
 }
 
+#soft-products .item, #hard-products .item{
+  margin: 3px;
+}
+
+#soft-products .item img, #hard-products .item img{
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+
+
 body{
     background-color: #292929;
     color:rgba(69,194,179,1);

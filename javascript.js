@@ -14,4 +14,20 @@ $(document).ready(function() {
  
   });
  
+    $("#soft-products").owlCarousel({
+ 
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+
+     $("#hard-products").owlCarousel({
+ 
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
 });
+
