@@ -1,421 +1,251 @@
-/* Owl Carousel Bootstrap Custom CSS */
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
 
-/* Header Navigation */
-#top-nav{
-	border-bottom: 1px solid #e1e6dd;
-	background: #FFF;
-	-webkit-transform: translateZ(0)
+/* Global Styles */
 
-}
-#top-nav.navbar{
-	margin-bottom: 0px;
-
-}
-#top-nav.navbar .nav{
-	margin: 8px 0px;
-}
-	
-#top-nav.navbar .nav > li > a {
-	padding: 6px 12px;
-	margin: 0px;
-	text-transform: uppercase;
-	font-weight: 400;
-
-	-webkit-transition: background-color 200ms ease;
-	-moz-transition: background-color 200ms ease;
-	-o-transition: background-color 200ms ease;
-	transition: background-color 200ms ease;
-}
-#top-nav.navbar .nav > li > a.download{
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
-#top-nav.navbar .nav > li > a.download-on{
-	background-color: #ff8a3c;
-	color: #ffffff;
-}
-#top-nav.navbar .nav > li > a.download-on:hover{
-	color: #ffffff;
-	background-color: #ff7920;
-}
-.btn-navbar span.icon-bar{
-	margin-top: 0px;
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/* Header  */
-
-#header{
-	background: #f1f1f1;
-	padding: 100px 0 100px;
-}
-#header h1{
-	color: #7fc242;
-	margin-bottom: 10px;
-	margin-top: 40px;
-}
-#header h3{
-	margin-bottom: 30px;
-	width: 400px;
-}
-#header .btn-success {
-	padding: 15px 30px;
-	margin-bottom: 5px;
-}
-#header .logo{
-	display: block;
-	margin-top:60px;
-	float: right
-}
-img.arrow-down{
-	margin: 0 auto;
-	display: block;
-}
-h1{
-	margin-top: 80px;
+/*
+ * 
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
-pre.pre-show{
-	margin: 40px 0px;
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
 
+*/
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
 }
-.tab-content pre.pre-show{
-	margin: 0px 0px 0px 0px;
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
 }
-.nav-tabs{
-	margin-top: 20px;
-	margin-bottom: 0px;
-	
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
 }
-.tab-content{
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	-webkit-border-radius: 0px 0px 4px 4px;
-	-moz-border-radius: 0px 0px 4px 4px;
-	border-radius: 0px 0px 4px 4px;
-	
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
 }
-/* Content */
-.table th, .table td {
-padding: 8px 12px;
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index:-100;
+    background-size: cover;
+    -webkit-background-size: cover;
+    /*background: url(../img/bg.jpg) no-repeat center center scroll;
+    
+    -moz-background-size: cover;
+    
+    -o-background-size: cover;*/
+}
+
+.header img{
+    width: 100%;
+    height: auto;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+    margin-top:80px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
 }
 
 /* Footer */
 
-#footer{
-	padding: 20px 0px;
-	background: #f3f3f3;
-	text-align: center
+footer {
+    padding: 100px 0;
 }
-.twitter-share-button{
-	top: 4px;
-	position: relative;
-}
-
-/* Demo Slides */
-
-#owl-example .item{
-	padding: 30px 0px;
-	margin: 10px;
-	color: #FFF;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	text-align: center;
-}
-#owl-example .item img{
-	width: auto;
-	margin: 0 auto;
-	display: block;
-}
-#owl-example .item h3{
-	font-size: 28px;
-	font-weight: 300;
-	margin: 25px 0 0;
-}
-#owl-example .item h4{
-	margin: 5px 0 0;
-	font-size: 18px;
-}
-.item h1{
-	margin: inherit;
-}
-
-.orange{
-	background: #ff8a3c;
-}
-.darkCyan{
-	background: #42bdc2;
-}
-.forestGreen{
-	background: #7fc242;
-}
-.yellow {
-	background: #ffd800;
-}
-.dodgerBlue {
-	background: #388bd1;
-}
-.skyBlue {
-	background: #a1def8;
-}
-.zombieGreen {
-	background: #3fbf79;
-}
-.violet {
-	background: #db6ac5;
-}
-.yellowLight {
-	background: #fee664;
-}
-.steelGray {
-	background: #cad3d0;
-}
-
-/* More Demo Box */
-
-#example-info h1,
-#more h1{
-	margin-top: 40px;
-}
-.demos-row{
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-.demo-page{
-	margin-top: 0px;
-	margin-bottom: 100px;
-}
-.demo-box{
-	display: block;
-	background: #f3f3f3;
-	text-align: center;
-	font-size: 18px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-.demo-box h3{
-	padding-bottom:20px;
-	margin: 0px;
-	color: #869690;
-}
-.demo-box:hover{
-	text-decoration: none;
-}
-.demo-wrapper{
-	padding: 30px 0px 20px 0px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.demo-slide {
-	float: left;
-}
-.demo-slide .bg{
-	background: #aebab6;
-	margin-right: 1px;
-	height: 100%;
-}
-.demo-box:hover .demo-slide .bg{
-	background: #7fc242;
-}
-/* Images */
-.demo-images .demo-slide{
-	height: 40px;
-	width: 33.3333333%;
-}
-
-/* Full */
-.demo-full {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.demo-full .demo-slide{
-	height: 40px;
-	width: 25%;
-}
-
-/* Custom */
-.demo-custom .demo-slide{
-	height: 40px;
-	width: 10%;
-}
-/* One */
-.demo-one .demo-slide{
-	height: 40px;
-	width: 100%;
-}
-
-/* json */
-
-.demo-Json .demo-slide {
-	height: 40px;
-	width: 20%;
-}
-.demo-Json-custom .demo-slide{
-	height: 40px;
-	width: 33.3333333%;
-}
-/* loading icon */
-
-.demo-lazy .demo-slide{
-	height: 40px;
-	width: 33.3333333%;
-}
-.demo-lazy .demo-slide .bg{
-background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
-}
-
-/* Auto Height */
-.demo-height .demo-slide{
-	height: 40px;
-	width: 100%;
-}
-
-/* Changelog  */
-#changelog{
-	margin-bottom: 40px;
-}
-#changelog .label{
-	margin-bottom:10px;
-}
-#changelog .log{
-	margin-bottom: 30px;
-	padding-bottom: 30px;
-	border-bottom: 1px solid #e1e6dd;
-}
-/* Faq */
-#faq dt {
-	line-height: 26px;
-}
-#faq dd{
-	line-height: 22px;
-	margin-bottom: 20px;
-}
-
-
-
-/* Responsive Stuff */
-
-
-@media (max-width: 979px) {
-	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
-	padding: 0px;
-	}
-	.navbar-fixed-top, .navbar-fixed-bottom {
-	position: fixed;
-	}
-}
-@media (max-width: 768px) {
-	.navbar.navbar-fixed-top{
-		position: static;
-	}
-	.btn.btn-navbar{
-		margin: 9px 20px 9px 8px;
-		padding: 10px 10px;
-	}
-	.nav-collapse .nav > li{
-		border-top: 1px solid #e1e6dd;
-		text-align: center
-	}
-	#header .logo{
-		margin-top:40px;
-		margin: 20px auto 0px;
-		float: none;
-		height: 150px;
-	}
-	#header {
-		text-align: center;
-		padding: 60px 0px 30px;
-	}
-	#header h1{
-		margin: 10px 0;
-	}
-	#header h3{
-	margin-bottom: 10px;
-	width: auto;
-	padding: 0px 20px;
-	}
-	h1 {
-		font-size: 38px;
-		margin: 20px 0;
-	}
-	h2 {
-		font-size: 24px;
-	}
-	h3 {
-		font-size: 20px;
-	}
-	h4 {
-		font-size: 16px;
-	}
-	h5 {
-		font-size: 13px;
-	}
-	h6 {
-		font-size: 12px;
-	}
-
-}
-
-
-@media (max-width: 480px) {
-	.navbar-fixed-top, .navbar-fixed-bottom {
-	position: static;
-	}
-	#header {
-		text-align: center;
-		padding: 20px 0px 20px;
-	}
-	#header .logo{
-		margin-top:0px;
-	}
-
-}
-
-/*
-NO MORE TABLES!! ;)
-*/
-@media (max-width: 767px) {
-
-	.hp-table table, .hp-table thead, .hp-table .hp-table tbody, .hp-table th, .hp-table td, .hp-table tr { 
-		display: block; 
-	}
-	.hp-table thead tr { 
-		display: none;
-	}
-	.hp-table tr { border: 0px solid #ccc; margin-bottom: 10px; }
-	
-	.hp-table td:before { 
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-	}
-
-	.hp-table td:nth-of-type(2):before { 
-		content: "Default:";
-		font-weight: bold;
-	}
-	.hp-table td:nth-of-type(3):before { 
-		content: "Type:";
-		font-weight: bold;
-	}
-	.hp-table td:nth-of-type(4):before { 
-		content: "Description:";
-		font-weight: bold;
-	}
-}
-
-
-
-
-
-
-
-
-
-
