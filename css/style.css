@@ -216,3 +216,13 @@ hr.horizontal_line_blog:after {
 #copyright {
     text-align: center;
 }
+
+
+.sub-page-nav{
+    position: fixed;
+    top:0;
+    height: 30px;
+    width: 100%;
+    background-color:rgba(69,194,179,1);
+    z-index: 9999;
+}
