@@ -4,7 +4,7 @@
 #owl-demo .item img{
   display: block;
   width: 100%;
-  height: 150px;
+  height: 100px;
 }
 
 #soft-products .item, #hard-products .item{
@@ -28,6 +28,7 @@ body{
 header{
     width: 100%;
 }
+
 .bannerContainer {
     position:relative;
     height: 450px;
@@ -130,6 +131,15 @@ input[type=search] {
     margin: 15px auto;
 }
 
+#features-in-bg{
+    background: -webkit-linear-gradient(left, #333, #42B3A5, #42B3A5, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #333, #42B3A5, #42B3A5, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#333, #42B3A5, #42B3A5, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #333, #42B3A5, #42B3A5, #333); /* Standard syntax (must be last) */
+    height: auto;
+    width: 100%;
+}
+
 h2 > .upcoming_event{
     color: #fff;
 }
@@ -230,4 +240,8 @@ hr.horizontal_line_blog:after {
     width: 100%;
     background-color:rgba(69,194,179,1);
     z-index: 9999;
+}
+
+.banner-text-color{
+    color: #000;
 }
