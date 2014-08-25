@@ -132,10 +132,10 @@ input[type=search] {
 }
 
 #features-in-bg{
-    background: -webkit-linear-gradient(left, #333, #42B3A5, #42B3A5, #333); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #333, #42B3A5, #42B3A5, #333); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right,#333, #42B3A5, #42B3A5, #333); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #333, #42B3A5, #42B3A5, #333); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left, #333, #42B3A5 10%, #42B3A5 90%, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #333, #42B3A5 10%, #42B3A5 90%, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#333, #42B3A5 10%, #42B3A5 90%, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #333, #42B3A5 10%, #42B3A5 90%, #333); /* Standard syntax (must be last) */
     height: auto;
     width: 100%;
 }
