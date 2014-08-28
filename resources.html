@@ -7,12 +7,8 @@
 	<title> A3CUBE Incorporation</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Important Owl stylesheet -->
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		 
-		<!-- Default Theme -->
-		<link rel="stylesheet" href="css/owl.theme.css">
-		 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 		
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,16 +21,13 @@
 
 
 <header>
-			
-			<div class="bannerContainer">
-				<div class="container-fluid">
+	<div class="container" id="banner_bg">
 			    <div class="search_bar">
 				    <form class="pull-right">
 		                <input type=search results=5 autosave=some_unique_value placeholder="Search...">
-
 					</form>
 				</div>
-				</div>
+	</div>
 				<nav class="navbar">
 			      <div class="navbar-header">
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -65,19 +58,44 @@
 					</li>
 
 			        <li><a href="#">Services</a></li>
-			        <li><a href="#">Industris & Solutions</a></li>
-			        	<li class="dropdown">
+			         <li class="dropdown">
   						<button class="btn btn-default dropdown-toggle dpdown_btn" type="button" id="dropdownMenu1" data-toggle="dropdown">
-    						<span class="glyphicon glyphicon-cloud"></span>Products
+    						Industries & Solutions
     						<span class="caret"></span>
   						</button>
 	  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="product.html">Architecture</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="solutions.html">Energy</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Biotech</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Finances</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Big Data</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manufacturing</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">HPC</a></li>
+	  					</ul>
+					</li>
+
+			        <li class="dropdown">
+  						<button class="btn btn-default dropdown-toggle dpdown_btn" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    						Resources
+    						<span class="caret"></span>
+  						</button>
+	  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="resources.html">Architecture</a></li>
 	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ronniee Express</a></li>
 	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">White Paper</a></li>
 	  					</ul>
 					</li>
-			        <li><a href="#">Press</a></li>
+			        <li class="dropdown">
+  						<button class="btn btn-default dropdown-toggle dpdown_btn" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    						Press
+    						<span class="caret"></span>
+  						</button>
+	  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="press.html">Press</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">In the news</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Blog</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Events</a></li>
+	  					</ul>
+					</li>
 			        <li><a href="#">About Us</a></li>
 
 			      </ul>
@@ -85,208 +103,63 @@
 
 			    </div><!--/.nav-collapse -->
     			</nav>
-
-			
-		</div>
-
-
-		<div id="features-in-bg">
-			<div class="container">
-				<div id="owl-demo">
-						  <div class="item"><img src="assets/owl1.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl2.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl3.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl4.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl5.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl6.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl7.jpg" alt="Owl Image"></div>
-						  <div class="item"><img src="assets/owl8.jpg" alt="Owl Image"></div>
-				</div>
-			</div>
-		</div>
 		</header>
 
-
-		<div class="block"></div>
-
-		<div class="container">
+		<div class="container blog-section">
+			<div class="block"></div>
+			<div class="block"></div>
 			<div class="row">
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Software</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-
-                        <div class="row">
-          					<div id="soft-products" class="col-md-10">
-							  <div class="item"><img class="img-rounded" src="assets/owl1.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl2.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl3.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl4.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl1.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl2.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl3.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl4.jpg" alt="Owl Image"></div>	
-							</div> 
-						</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Hardware</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-
-                        <div class="row">
-          					<div id="hard-products" class="col-md-10">
-							  <div class="item"><img class="img-rounded" src="assets/owl1.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl2.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl3.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl4.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl1.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl2.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl3.jpg" alt="Owl Image"></div>
-							  <div class="item"><img class="img-rounded" src="assets/owl4.jpg" alt="Owl Image"></div>	
-							</div> 
-						</div>
-						</div>
-                    </div>
-                </div>
-            </div>
-		</div>
-
-		<div class="block"></div>
-
-		<div class="container">
-			<div class="row">
-
-				<div class="col-xs-6 col-md-4">
-					<iframe  height="250px" 
-							src="http://www.youtube.com/embed/SfOw3UfpfNE" frameborder="0" allowfullscreen>
-					</iframe>
-				</div>
-
-				<div class="col-xs-6 col-md-4">
-					<iframe height="250px" 
-						src="http://www.youtube.com/embed/U23UdBKhsLU" frameborder="0" allowfullscreen>
-					 </iframe>
-				</div>
-
-				<div class="col-xs-6 col-md-4">
-					<div class="clearfix"></div><br>
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="col-xs-12 col-xs-offset-1">
-							<img src="img/fb48.png"><span class="col-xs-offset-1 social-text">Follow us on Facebook </span>
-							<br>
-							<br>
-						</div>
-						<div class="col-xs-12 col-xs-offset-1">
-							<img src="img/gp48.png"><span class="col-xs-offset-1 social-text">Follow us on Google +  </span>
-							<br>
-							<br>
-						</div>
-						<div class="col-xs-12 col-xs-offset-1">
-							<img src="img/lin48.png"><span class="col-xs-offset-1 social-text">Follow us on LinkedIn  </span>
-							<br>
-							<br>
-						</div>
+				<div class="col-xs-3 blog-left">
+					<div class="blog-nav">
+					    <div class="panel-group" id="accordion">
+					        <div class="panel panel-default">
+					            <div class="panel-heading">
+					                <h4 class="panel-title">
+					                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
+					                </h4>
+					            </div>
+					            <div id="collapseOne" class="panel-collapse collapse in">
+					                <div class="panel-body">
+					                    <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+					                </div>
+					            </div>
+					        </div>
+					        <div class="panel panel-default">
+					            <div class="panel-heading">
+					                <h4 class="panel-title">
+					                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. What is Twitter Bootstrap?</a>
+					                </h4>
+					            </div>
+					            <div id="collapseTwo" class="panel-collapse collapse">
+					                <div class="panel-body">
+					                    <p>Twitter Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+					                </div>
+					            </div>
+					        </div>
+					        <div class="panel panel-default">
+					            <div class="panel-heading">
+					                <h4 class="panel-title">
+					                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. What is CSS?</a>
+					                </h4>
+					            </div>
+					            <div id="collapseThree" class="panel-collapse collapse">
+					                <div class="panel-body">
+					                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+					                </div>
+					            </div>
+					        </div>
+					    </div>
 					</div>
 				</div>
-				</div>
-			</div>
-			</div>
 
-		</div>
-
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<hr class="horizontal_line_blog">
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-4 blog-thumbnails">
-							<a href="#" class="img-rounded">
-						      <img src="http://placehold.it/120x120" alt="...">
-						    </a>
-						</div>
-						<div class="col-md-7 col-md-offset-1">
-							<h3>Article One</h3>
-							<p class="blog-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris.</p>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="row">
-						<div class="col-md-4 blog-thumbnails">
-							<a href="#" class="img-rounded">
-						      <img src="http://placehold.it/120x120" alt="...">
-						    </a>
-						</div>
-						<div class="col-md-7 col-md-offset-1">
-							<h3>Article One</h3>
-							<p class="blog-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris.</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-4 blog-thumbnails">
-							<a href="#" class="img-rounded">
-						      <img src="http://placehold.it/120x120" alt="...">
-						    </a>
-						</div>
-						<div class="col-md-7 col-md-offset-1">
-							<h3>Article One</h3>
-							<p class="blog-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris.</p>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="row">
-						<div class="col-md-4 blog-thumbnails">
-							<a href="#" class="img-rounded">
-						      <img src="http://placehold.it/120x120" alt="...">
-						    </a>
-						</div>
-						<div class="col-md-7 col-md-offset-1">
-							<h3>Article One</h3>
-							<p class="blog-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris.</p>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="row">
-						<div class="col-md-2 col-md-offset-10">
-							<a href="#" class="btn btn-default">More</a>
-						</div> 
-					</div>
+				<div class="col-xs-8 col-xs-offset-1 blog-right">
 
 				</div>
-
 			</div>
 		</div>
 
 		<footer>
 			<div class="container">
-			<hr class="footer_widget"></hr>
 			<div class="block"></div>
 			<div class="row">
 
@@ -331,12 +204,7 @@
 
 	</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="javascript.js"></script>
     <!-- Include js plugin -->
-	<script src="js/owl.carousel.js"></script>
-	
 </body>
 </html>
