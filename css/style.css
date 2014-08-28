@@ -212,6 +212,10 @@ hr.horizontal_line_blog:after {
     color: #fff;
 }
 
+.social-text{
+    font-size: 1.2em;
+    text-indent: 15px;
+}
 
 .footer_title{
     color: #fff;
