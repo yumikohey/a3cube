@@ -274,3 +274,14 @@ hr.horizontal_line_blog:after {
     width: 50px;
     height: 50px;
 }
+
+
+#resource_title{
+    font-size:2em;
+    font-style:bold;
+}
+
+.resource_text{
+    color:#000;
+    font-size: 1em;
+}
