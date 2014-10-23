@@ -171,3 +171,12 @@ footer {
     color: #222;
     font-weight: bold;
 }
+
+.product_text{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#product_spec{
+    height: 500px;
+}
