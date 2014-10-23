@@ -218,7 +218,9 @@ hr.horizontal_line_blog:after {
 }
 
 .blog-text{
-    text-align: justify;
+    margin-top: 25px;
+    line-height: 25px;
+    font-size: 1.1em;
     color: #fff;
 }
 
@@ -294,4 +296,32 @@ hr.horizontal_line_blog:after {
 
 .panel-body{
     color: #000;
+}
+
+
+.blog_circle{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:25px;
+    text-align:center;
+    background:#45C2B3;
+    padding-top:25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align:middle;
+    display:table-cell;
+}
+
+.blog_title{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.blog_title a{
+    color:#45C2B3;
 }
