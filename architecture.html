@@ -7,8 +7,10 @@
 	<title> A3CUBE Incorporation</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/architecture.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/architecture.js"></script>
 		
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,12 +51,11 @@
     						<span class="glyphicon glyphicon-cloud"></span>Products
     						<span class="caret"></span>
   						</button>
-  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    					<li role="presentation"><a role="menuitem" tabindex="-1" href="product.html">Fortissimo</a></li>
-    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">ByOS</a></li>
-    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ronniee 2S</a></li>
-    				 	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ronniee RIO</a></li>
-  					</ul>
+  					    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="fortissimo.html">Fortissimo</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="ronniee2.html">Ronniee 2S</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="ronnieerio.html">Ronniee RIO</a></li>
+                    </ul>
 					</li>
 
 			        <li><a href="#">Services</a></li>
@@ -64,9 +65,9 @@
     						<span class="caret"></span>
   						</button>
 	  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="solutions.html">Energy</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="industry.html">Energy</a></li>
 	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Biotech</a></li>
-	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Finances</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Finance</a></li>
 	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Big Data</a></li>
 	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manufacturing</a></li>
 	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">HPC</a></li>
@@ -79,9 +80,9 @@
     						<span class="caret"></span>
   						</button>
 	  					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="resources.html">Architecture</a></li>
-	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ronniee Express</a></li>
-	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">White Paper</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="architecture.html">Architecture</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#ronniee">Ronniee Express</a></li>
+	    					<li role="presentation"><a role="menuitem" tabindex="-1" href="#whitepaper">White Paper</a></li>
 	  					</ul>
 					</li>
 			        <li class="dropdown">
@@ -122,7 +123,7 @@
 					    </div>
 					    <div class="panel panel-default">
 					            <div class="panel-heading">
-					                <h4 class="panel-title">
+					                <h4 class="panel-title ronniee_tab">
 					                     <a data-toggle="tab" href="#ronniee">Ronniee Express</a>
 					                </h4>
 					            </div>
@@ -140,8 +141,11 @@
 
 				<div class="col-xs-8 col-xs-offset-1 blog-right">
 					<div class="row">
-						<div id="architecture" class="fade in active">
-							<p class="resource_text">
+
+						<div id="architecture">
+						<h3>A3Cube Architecture</h3>
+						<div class="col-md-10">
+							<p class="resource_text arch">
 								A3CUBE’s new breakthrough architecture is designed to provide enormous operational optimization and economic advantages in Big Data and HPC environments. Our unique vision adjusts the focus from High Performance Computing (HPC) to High Performance Data (HPD) with the aim of addressing current and  future data center challenges. This revolutionary architecture is based on our "In Memory Network"  with direct memory to memory communication, that uniquely extends the very limited capability of PCIe architectures and interconnection networks in general, to extol today’s and tomorrow’s flash technology potential.
 
 								Technology has witnessed a radical architectural evolution in the last 20 years, particularly in high performance computing (HPC). The market has shifted from a few very powerful computational elements using the traditional supercomputer architectural model, to thousands of commodity computing elements, creating more affordable and scalable computing systems and making HPC available to a wider range of applications. Storage systems and data analytic machines must make the same transition from a few high performance storage engines to thousands of networked storage devices operating in parallel to deliver on the promise of real scale out storage.
@@ -149,15 +153,25 @@
 								A3CUBE has now adapted this supercomputing architecture to enable exascale storage built around a ‘brain-inspired’ architecture. It combines supercomputing’s massively parallel operations with an innovative data plane and I/O fabric that eliminates network overhead while dramatically slashing the latency of traditional network fabric designs with new features
 
 								The A3CUBE design encompasses breakthrough technology, creating a new standard for storage nodes that can be comprised of disks, SSDs, CPUs and I/O interfaces, becoming equivalent to a processing element in massively parallel computer environments. It leverages a uniquely powerful communication mechanism between these nodes called the RONNIEE™ "In Memory Network." This is a revolutionary paradigm shift in network communication, that introduces a full application with a transparent memory-to-memory direct connection. This In-Memory network discards the protocol stack bottleneck involved in remote memory access, resulting in the lowest possible communication latency, even for user-level software. The TCP/UPD stack is completely removed, not simply offloaded, and substituted with a fast memory-to-memory mapped TCP/UDP socket that produces extraordinary and disruptive performance enhancements at the application and system levels and allows applications to reach their full potential. Our technology introduces elite supercomputing performance and characteristics to every organization without any changes to the native applications.
+							</p>
+							</div>
+						</div>
+
+						<div id="ronniee ronniee_p">
+							<h3>RONNIEE Express Fabric - The In Memory Network</h3>
+							<p class="resource_text">
+								The RONNIE Express In Memory Network unlocks an extremely compelling alternative to current design techniques using a cost-effective and disruptive architecture. The new In Memory Network is designed to remove all the limitations of today’s interconnection fabrics, providing military grade reliability. RONNIEE Express provides a fast and transparent way for any networked application to supercharge performance and acceleration. Through our technology, Remote memory accesses are transparent to the requesting processes and eliminate the bottlenecks related to traditional RDMA support. There is no protocol stack involved in remote memory access, resulting in communication latencies  as low as 100s of nanoseconds (for system to system latency). 
+
+								RONNIEE Express delivers the building blocks for high performance and scalable file system implementations along with petabyte-scale Big Data and HPC storage systems. This allows for extraordinary, unique and disruptive performance enhancements at the application and system levels and allows applications to reach their full potential. 
+
+								A3CUBE’s RONNIE Express is an interconnection fabric that uses a unique combination of hardware and software. It combines multiple 20 or 40 Gbit/s channels with less than one microsecond latency and  dramatically improves overall inter-system communication for advanced direct inter-server and inter-processor connections.
+
+								The RONNIEE Express Fabric simply uses an application-transparent mechanism, as the main communication model between two or more hosts. The advantage of this architecture is that once the memory mapping is defined, each active network interface has direct access to the In Memory Network without operating system interventions, resulting in the lowest possible communication latency, at any level, even for user-level software.
 
 							</p>
 						</div>
-					</div>
-				</div>
 
-				<div class="col-xs-8 col-xs-offset-1 blog-right">
-					<div class="row">
-						<div id="whitepaper" class="fade">
+						<div id="whitepaper">
 								<div class="col-xs-2">
 									<div id="pdf_logo">
 										<img src="img/pdf-logo.jpg">
@@ -230,6 +244,7 @@
 							
 								</div>
 						</div>
+
 					</div>
 				</div>
 		</div>
