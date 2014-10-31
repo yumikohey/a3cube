@@ -7,7 +7,7 @@
 	<title> A3CUBE Incorporation</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/architecture.css">
+	<link rel="stylesheet" type="text/css" href="css/press.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 		
@@ -45,10 +45,8 @@
 			      <ul class="nav navbar-nav navbar-right navbar-default">
 			      
 			        <li><a href="index.html">Home</a></li>
-                    <li role="presentation"><a href="fortissimo.html">Fortissimo</a></li>
+					<li role="presentation"><a href="fortissimo.html">Fortissimo</a></li>
 
-			       
-			         <li class="dropdown">
   						<button class="btn btn-default dropdown-toggle dpdown_btn" type="button" id="dropdownMenu1" data-toggle="dropdown">
     						Industries & Solutions
     						<span class="caret"></span>
@@ -105,7 +103,7 @@
 					        <div class="panel panel-default">
 					            <div class="panel-heading">
 					                <h4 class="panel-title active">
-					                    <a data-toggle="tab" href="#architecture">Architecture</a>
+					                    <a data-toggle="tab" href="#architecture">Press</a>
 					                </h4>
 					            </div>
 					        </div>
@@ -113,7 +111,7 @@
 					    <div class="panel panel-default">
 					            <div class="panel-heading">
 					                <h4 class="panel-title">
-					                     <a data-toggle="tab" href="#ronniee">Ronniee Express</a>
+					                     <a data-toggle="tab" href="#ronniee">In the News</a>
 					                </h4>
 					            </div>
 					    </div>
@@ -121,7 +119,7 @@
 					    <div class="panel panel-default">
 					            <div class="panel-heading">
 					                <h4 class="panel-title">
-					                     <a data-toggle="tab" href="#whitepaper">White Paper</a>
+					                     <a data-toggle="tab" href="#whitepaper">Blog</a>
 					                </h4>
 					            </div>
 					    </div>
@@ -132,30 +130,84 @@
 					<div class="row">
 
 						<div id="architecture" class="fade in active">
-						<h3>A3Cube Architecture</h3>
-							<p class="resource_text">
-								A3CUBE’s new breakthrough architecture is designed to provide enormous operational optimization and economic advantages in Big Data and HPC environments. Our unique vision adjusts the focus from High Performance Computing (HPC) to High Performance Data (HPD) with the aim of addressing current and  future data center challenges. This revolutionary architecture is based on our "In Memory Network"  with direct memory to memory communication, that uniquely extends the very limited capability of PCIe architectures and interconnection networks in general, to extol today’s and tomorrow’s flash technology potential.
-
-								Technology has witnessed a radical architectural evolution in the last 20 years, particularly in high performance computing (HPC). The market has shifted from a few very powerful computational elements using the traditional supercomputer architectural model, to thousands of commodity computing elements, creating more affordable and scalable computing systems and making HPC available to a wider range of applications. Storage systems and data analytic machines must make the same transition from a few high performance storage engines to thousands of networked storage devices operating in parallel to deliver on the promise of real scale out storage.
-
-								A3CUBE has now adapted this supercomputing architecture to enable exascale storage built around a ‘brain-inspired’ architecture. It combines supercomputing’s massively parallel operations with an innovative data plane and I/O fabric that eliminates network overhead while dramatically slashing the latency of traditional network fabric designs with new features
-
-								The A3CUBE design encompasses breakthrough technology, creating a new standard for storage nodes that can be comprised of disks, SSDs, CPUs and I/O interfaces, becoming equivalent to a processing element in massively parallel computer environments. It leverages a uniquely powerful communication mechanism between these nodes called the RONNIEE™ "In Memory Network." This is a revolutionary paradigm shift in network communication, that introduces a full application with a transparent memory-to-memory direct connection. This In-Memory network discards the protocol stack bottleneck involved in remote memory access, resulting in the lowest possible communication latency, even for user-level software. The TCP/UPD stack is completely removed, not simply offloaded, and substituted with a fast memory-to-memory mapped TCP/UDP socket that produces extraordinary and disruptive performance enhancements at the application and system levels and allows applications to reach their full potential. Our technology introduces elite supercomputing performance and characteristics to every organization without any changes to the native applications.
-							</p>
+						
 						</div>
 
 						<div id="ronniee" class="fade">
-							<h3>RONNIEE Express Fabric - The In Memory Network</h3>
-							<p class="resource_text">
-								The RONNIE Express In Memory Network unlocks an extremely compelling alternative to current design techniques using a cost-effective and disruptive architecture. The new In Memory Network is designed to remove all the limitations of today’s interconnection fabrics, providing military grade reliability. RONNIEE Express provides a fast and transparent way for any networked application to supercharge performance and acceleration. Through our technology, Remote memory accesses are transparent to the requesting processes and eliminate the bottlenecks related to traditional RDMA support. There is no protocol stack involved in remote memory access, resulting in communication latencies  as low as 100s of nanoseconds (for system to system latency). 
 
-								RONNIEE Express delivers the building blocks for high performance and scalable file system implementations along with petabyte-scale Big Data and HPC storage systems. This allows for extraordinary, unique and disruptive performance enhancements at the application and system levels and allows applications to reach their full potential. 
+						<div id="whitepaper" class="fade">
+								<div class="col-xs-2">
+									<div id="pdf_logo">
+										<img src="img/pdf-logo.jpg">
+									</div>
+								</div>
 
-								A3CUBE’s RONNIE Express is an interconnection fabric that uses a unique combination of hardware and software. It combines multiple 20 or 40 Gbit/s channels with less than one microsecond latency and  dramatically improves overall inter-system communication for advanced direct inter-server and inter-processor connections.
+								<div class="col-xs-9 col-xs-offset-1">
+									<div id="resource_title">
+		                                Ronniee Express Fabric - The In Memory Network
+		                            </div>
+		                            <p class="resource_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure. 
+									</p>
+							
+								</div>
 
-								The RONNIEE Express Fabric simply uses an application-transparent mechanism, as the main communication model between two or more hosts. The advantage of this architecture is that once the memory mapping is defined, each active network interface has direct access to the In Memory Network without operating system interventions, resulting in the lowest possible communication latency, at any level, even for user-level software.
+								<div class="col-xs-2">
+									<div id="pdf_logo">
+										<img src="img/pdf-logo.jpg">
+									</div>
+								</div>
 
-							</p>
+								<div class="col-xs-9 col-xs-offset-1">
+									<div id="resource_title">
+		                                Ronniee Express Fabric - The In Memory Network
+		                            </div>
+		                            <p class="resource_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure. 
+									</p>
+							
+								</div>
+
+								<div class="col-xs-2">
+									<div id="pdf_logo">
+										<img src="img/pdf-logo.jpg">
+									</div>
+								</div>
+
+								<div class="col-xs-9 col-xs-offset-1">
+									<div id="resource_title">
+		                                Ronniee Express Fabric - The In Memory Network
+		                            </div>
+		                            <p class="resource_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure. 
+									</p>
+							
+								</div>
+
+								<div class="col-xs-2">
+									<div id="pdf_logo">
+										<img src="img/pdf-logo.jpg">
+									</div>
+								</div>
+
+								<div class="col-xs-9 col-xs-offset-1">
+									<div id="resource_title">
+		                                Ronniee Express Fabric - The In Memory Network
+		                            </div>
+		                            <p class="resource_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure. 
+									</p>
+							
+								</div>
+
 						</div>
 
 						<div id="whitepaper" class="fade">
@@ -236,7 +288,6 @@
 				</div>
 		</div>
 
-		<hr class="footer_widget"></hr>
 		<p id="copyright">Copyright A3CUBE @ 2014. All Rights Reserved.</p>
 
 	</div>

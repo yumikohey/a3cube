@@ -14,11 +14,31 @@
 
 .photo_box{
 	width: 250px;
-	height: 300px;
+	height: 500px;
 	margin:0 15px;
-	border: 1px solid #ccc;
 }
 
 #photo_first{
 	margin-left:40px;
+}
+
+.man_photo{
+	margin: 0 auto;
+	width: 220px;
+	height: 250px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.name{
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.subtitle{
+	margin-right: -20px;
+	font-size: 1em;
+	line-height: 2;
+	color: #383838;
 }
