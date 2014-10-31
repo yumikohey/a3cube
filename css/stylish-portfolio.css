@@ -178,5 +178,39 @@ footer {
 }
 
 #product_spec{
+    background-color: #45C2B3;
     height: 500px;
+    color: #fff;
 }
+
+#product_spec_1{
+    height: 650px;
+    background-color: #ddd;
+}
+
+#product_spec_2{
+    height: 650px;
+    background-color: #fff;
+}
+
+.pro_img{
+    margin:100px 20px;
+    width: 90%;
+    height: 90%;
+}
+
+.pro_p{
+    margin: 200px 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.pro_img_even{
+    margin:100px 20px;
+    width: 90%;
+    height: 90%;
+    float: right;
+}
+
