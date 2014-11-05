@@ -1,18 +1,27 @@
-#energy{
-	margin-top: -20px;
-}
-#biotech{
-	margin-top: -570px;
+h3 {
+	color: #45C2B3;
 }
 
-#finance{
-	margin-top: -200px;
+#page-wrap { 
+    width: 100%; 
+    margin: 0 auto; 
+    background: #fff; 
+    padding: 8px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+	background: -moz-linear-gradient(top,  #eee,  #ccc);
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
 }
 
-#bigdata{
-	margin-top: -250px;
+.blog-left .btn{
+	width: 140px;
+	margin: 10px 20px;
 }
 
-#manufacturing{
-	margin-top: -300px;
+#main-content {
+
+}
+
+.blog-right {
+	text-align: justify;
 }
