@@ -1,11 +1,10 @@
-
-
-
-
-        var requestAnimationFrame = window.requestAnimationFrame || 
-                                    window.mozRequestAnimationFrame || 
-                                    window.webkitRequestAnimationFrame ||
-                                    window.msRequestAnimationFrame;
+window.requestAnimFrame = (function(){
+      return  window.requestAnimationFrame       || 
+              window.mozRequestAnimationFrame    || 
+              window.oRequestAnimationFrame      ||
+              window.webkitRequestAnimationFrame ||  
+              window.msRequestAnimationFrame;
+        })();
 
         var transforms = ["transform", 
                           "msTransform", 
