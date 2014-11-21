@@ -3094,8 +3094,9 @@ input[type="button"].btn-block {
 .fade.in {
   opacity: 1;
 }
+
 .collapse {
-  display: none;
+   display: none;
 }
 .collapse.in {
   display: block;
@@ -3114,6 +3115,7 @@ tbody.collapse.in {
        -o-transition: height .35s ease;
           transition: height .35s ease;
 }
+
 .caret {
   display: inline-block;
   width: 0;
@@ -3789,6 +3791,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
 }
+
 .navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;
@@ -3802,6 +3805,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
+
+
 @media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
@@ -3888,11 +3893,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 15px;
   font-size: 3em;
   line-height: 20px;
   color: white;
 }
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;

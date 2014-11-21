@@ -37,11 +37,11 @@ header{
 #banner_bg{
     width: 100%;
     height: 450px;
-    background-image: url('http://graphicburger.com/wp-content/uploads/2014/02/Seamless-Polygon-Backgrounds-Vol2-full.jpg');
+    background-image: url('http://rack.0.mshcdn.com/media/ZgkyMDE0LzA0LzAxLzZlL0Nsb3VkQ29tcHV0LjgyODIxLmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/84000dec/f8e/Cloud-Computing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     -wekit-background-size:cover;
-    z-index: -100;
+    background-position: bottom;
 }
 
 .carousel {
@@ -405,3 +405,24 @@ footer button {
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+<<<<<<< HEAD
+@media (max-width: 760px) {
+    .search_bar{
+        visibility: hidden;
+    }
+
+    .navbar-header {
+        width: 100%;
+    }
+}
+=======
+#mobile_brand{
+    visibility: hidden;
+}
+
+#map {
+    width: 400px;
+    height: 300px;
+}
+>>>>>>> FETCH_HEAD
