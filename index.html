@@ -7,6 +7,17 @@
 	<title> A3CUBE Incorporation</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<link rel="stylesheet" media="(max-width: 960x)" href="css/max-960px.css">
+=======
+	<link rel="stylesheet" type="text/css" href="css/max_768px.css">
+
+>>>>>>> FETCH_HEAD
+=======
+	<link rel="stylesheet" type="text/css" href="css/max_768px.css">
+
+>>>>>>> FETCH_HEAD
 	<!-- Important Owl stylesheet -->
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		 
@@ -25,18 +36,24 @@
 
 
 <header>
+			<div class="container" id="mobile_brand">
+				    <div class="row">
+				    	<a class="navbar-brand">A3CUBE</a>
+				    </div>
+			</div>  
 			
 			<div class="bannerContainer">
-				<div class="container-fluid">
+				<div class="container">  
 			    <div class="search_bar">
 				    <form class="pull-right" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
 				    	<input name="q" type="hidden" />
 		                <input name="qfront" type=search placeholder="Search...">
 		                <input type="submit" style="position: absolute; left: -9999px"/>
-
 					</form>
 				</div>
+
 				</div>
+
 				<nav class="navbar">
 			      <div class="navbar-header">
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,10 +63,11 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			      
-			    </div>    
+			    </div>
+			    
 			    <div class="navbar-collapse collapse">
 			    <div class="container">
-			    <a class="navbar-brand">A3CUBE</a>
+			      <a class="navbar-brand">A3CUBE</a>	
 			      <ul class="nav navbar-nav navbar-right navbar-default">
 			      
 			        <li><a href="index.html">Home</a></li>
@@ -207,21 +225,21 @@
 		<div class="block"></div>
 
 		<div class="container">
-			<div class="row">
+			<div class="row" id="videos">
 
-				<div class="col-xs-6 col-md-4">
-					<iframe  height="250px" 
-							src="http://www.youtube.com/embed/SfOw3UfpfNE" frameborder="0" allowfullscreen>
+				<div class="col-md-4">
+					<iframe  height="250px"
+							src="http://www.youtube.com/embed/SfOw3UfpfNE" frameborder="0" allowfullscreen id="single_video">
 					</iframe>
 				</div>
 
-				<div class="col-xs-6 col-md-4">
+				<div class="col-xs-12 col-md-4">
 					<iframe height="250px" 
-						src="http://www.youtube.com/embed/U23UdBKhsLU" frameborder="0" allowfullscreen>
+						src="http://www.youtube.com/embed/U23UdBKhsLU" frameborder="0" allowfullscreen id="single_video">
 					 </iframe>
 				</div>
 
-				<div class="col-xs-6 col-md-4">
+				<div class="col-md-4" id="social_media">
 					<div class="clearfix"></div><br>
 				<div class="row">
 					<div class="col-xs-12">
@@ -260,10 +278,10 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-md-4 blog_circle">
+						<div class="col-md-4 col-xs-2 blog_circle">
 							Channel Buzz
 						</div>
-						<div class="col-md-7 col-md-offset-1">
+						<div class="col-md-7 col-xs-8 col-md-offset-1">
 							<div class="blog_title"><a href="http://www.channelbuzz.ca/2014/09/new-a3cube-hyperconverged-system-gives-memory-direct-acceleration-applications-10782/" target="_blank">Hyperconverged System</a></div>
 							<p class="blog-text"> A3Cube uses enhanced PCIe architecture to provide in-memory direct acceleration to existing applications, is compatible with the big storage OEMs rather than competitive with them,and goes to market entirely through channel partners.</p>
 							<a href="http://www.channelbuzz.ca/2014/09/new-a3cube-hyperconverged-system-gives-memory-direct-acceleration-applications-10782/" target="_blank" class="btn btn-default pull-right">More</a>
@@ -272,10 +290,10 @@
 					<div class="clearfix"></div>
 					<div class="block"></div>
 					<div class="row">
-						<div class="col-md-4 blog_circle">
+						<div class="col-md-4 col-xs-2 blog_circle">
 							Business Edge
 						</div>
-						<div class="col-md-7 col-md-offset-1">
+						<div class="col-md-7 col-xs-8 col-md-offset-1">
 							<div class="blog_title"><a href="http://www.itbusinessedge.com/blogs/it-unmasked/a3cube-turns-memory-into-shared-storage-cluster.html" target="_blank">Memory Storage Cluster</a></div>
 							<p class="blog-text"> With the rise of PCI Express (PCIe) on servers, many IT organizations have started to plug Flash memory into servers to replace hard disk drives as either forms of tier zero or tier one primary storage. Now A3Cube wants to make it possible to treat all that storage as a shared cluster across multiple servers.</p>
 							<a href="http://www.itbusinessedge.com/blogs/it-unmasked/a3cube-turns-memory-into-shared-storage-cluster.html" target="_blank" class="btn btn-default pull-right">More</a>
@@ -286,10 +304,10 @@
 				
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-md-4 blog_circle">
+						<div class="col-md-4 col-xs-2 blog_circle">
 							Inside Bigdata
 						</div>
-						<div class="col-md-7 col-md-offset-1">
+						<div class="col-md-7 col-xs-8 col-md-offset-1">
 							<div class="blog_title"><a href="http://inside-bigdata.com/2014/09/16/slidecast-fortissimo-foundation-clustered-pervasive-global-direct-remote-io-access-system/" target="_blank">Fortissimo Foundation</a></div>
 							<p class="blog-text"> Fortissimo Foundation is a clustered, pervasive, global direct-remote I/O access system that linearly scales I/O bandwidth, memory, Flash and hard disk storage capacity and server performance to provide an “in-memory” scale-out solution.</p>
 							<a href="http://inside-bigdata.com/2014/09/16/slidecast-fortissimo-foundation-clustered-pervasive-global-direct-remote-io-access-system/" target="_blank" class="btn btn-default pull-right">More</a>
@@ -298,10 +316,10 @@
 					<div class="clearfix"></div>
 					<div class="block"></div>
 					<div class="row">
-						<div class="col-md-4 blog_circle">
+						<div class="col-md-4 col-xs-1 blog_circle">
 							Storage Review
 						</div>
-						<div class="col-md-7 col-md-offset-1">
+						<div class="col-md-7 col-xs-8 col-md-offset-1">
 							<div class="blog_title"><a href="http://www.storagereview.com/a3cube_introduces_fortissimo_foundation_for_ultra_highperformance_hyperconvergence" target="_blank">Ultra High-Performance Hyper-Convergence</a></div>
 							<p class="blog-text"> A3CUBE Inc. introduced its new building block software solution, Fortissimo Foundation. Working in concert with A3CUBE's previously announced RONNIE Express platform.</p>
 							<a href="http://www.storagereview.com/a3cube_introduces_fortissimo_foundation_for_ultra_highperformance_hyperconvergence" target="_blank"class="btn btn-default pull-right">More</a>
@@ -321,7 +339,7 @@
 			<h2 id="contact_css">Contact US</h2>
 			<div class="block"></div>
 			<div class="row">
-			<div class="col-md-4 col-md-offset-1">
+			<div class="col-md-4 col-md-offset-1 col-xs-12">
 			<form action="dayumikoda@gmail.com" method="post">
 				
 				<div>
@@ -343,7 +361,7 @@
 
 			</div>
 			<div class="col-md-4 col-md-offset-2">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3172.25679299351!2d-121.8905221!3d37.3364288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcca32b6b8fd1%3A0xf16d066dd1f42a06!2s2+N+1st+St%2C+San+Jose%2C+CA+95113!5e0!3m2!1sen!2sus!4v1414187742585" width="400px" height="300px" frameborder="0" style="border:0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3172.25679299351!2d-121.8905221!3d37.3364288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcca32b6b8fd1%3A0xf16d066dd1f42a06!2s2+N+1st+St%2C+San+Jose%2C+CA+95113!5e0!3m2!1sen!2sus!4v1414187742585" id="map" frameborder="0"></iframe>
 
 			</div>
 
