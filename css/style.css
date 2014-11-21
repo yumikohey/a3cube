@@ -407,7 +407,6 @@ footer button {
 }
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 @media (max-width: 760px) {
     .search_bar{
         visibility: hidden;
@@ -418,8 +417,6 @@ footer button {
     }
 }
 =======
-=======
->>>>>>> FETCH_HEAD
 #mobile_brand{
     visibility: hidden;
 }
@@ -427,9 +424,5 @@ footer button {
 #map {
     width: 400px;
     height: 300px;
-<<<<<<< HEAD
-}
->>>>>>> FETCH_HEAD
-=======
 }
 >>>>>>> FETCH_HEAD
