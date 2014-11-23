@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+
+	.navbar-collapse {
+	  margin-top: -50px;
+	}
+
+	.navbar-brand {
+	  margin-top: -50px;
+
+	}
+
+	#social_media {
+		visibility: hidden;
+	}
+
+	#videos {
+		height: 280px;
+	}
+
+	.bannerContainer{
+		height: 480px;
+	}
+
+	.blog_circle {
+		margin: 60px 40px;
+	}
+
+	.blog_title {
+		margin-top: 20px;
+	}
+
+	#single_video {
+		width: 80%;
+		height: 400px;
+		margin: 20px 40px;
+	}
+
+	#map {
+    width: 90%;
+    height: 300px;
+    margin: 20px 40px;
+	}	
+}
