@@ -154,12 +154,6 @@ hr.small {
     height: 500px;
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
 /* Footer */
 
 footer {
@@ -202,9 +196,16 @@ footer {
 .pro_p{
     margin: 200px 20px;
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #000;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
+}
+
+.subtitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 140px 0 -150px 20px;
+
 }
 
 .pro_img_even{

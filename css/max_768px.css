@@ -2,6 +2,7 @@
 
 	.navbar-collapse {
 	  margin-top: -50px;
+	  width: 100%;
 	}
 
 	.navbar-brand {
@@ -49,6 +50,44 @@
 
 	.search_bar{
 		visibility: hidden;
+	}
+
+	#product_spec_1{
+    	height: 800px;
+	}
+
+	#product_spec_2{
+	    height: 800px;
+	}
+
+	.pro_img{
+	    margin:100px 20px;
+	    width: 90%;
+	    height: 90%;
+	}
+
+	.subtitle {
+
+    margin-top: 0px;
+
+	}
+
+	.pro_p{
+	    margin: 200px 25px;
+	}
+
+	.pro_img_even{
+	    margin-top: -80px;
+	    float: left;
+	}
+
+	.text_even {
+		margin-top: 500px;
+		margin-bottom: -700px;
+	}
+
+	.product_text{
+     	margin: 0 20px;
 	}
 
 }
