@@ -25,3 +25,16 @@ h3 {
 .blog-right {
 	text-align: justify;
 }
+
+@media (max-width: 768px) {
+	.resource_text{
+		padding-right: 50px;
+		margin-left: -20px;
+	}
+
+	#guts h3 {
+		margin-left: -20px;
+		margin-right: 50px;
+	}
+
+}

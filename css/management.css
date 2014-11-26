@@ -42,3 +42,23 @@
 	line-height: 2;
 	color: #383838;
 }
+
+@media (max-width: 768px) {
+	.info_box {
+		height: 200px;
+	}
+
+	.blog-section {
+		height: 2100px;
+	}
+
+	.man_photo{
+		width: 60%;
+		margin-left: 80px;
+	}
+
+	.photo_box{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
